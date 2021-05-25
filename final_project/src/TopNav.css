@@ -1,6 +1,16 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: auto;
+}
+.container{
+    width: 90vw;
+    margin-left: 20px;
+}
+
 .Navbar-top {
   display: flex;
   height: 40px;
+  padding-bottom: 10px;
 }
 .items {
   display: flex;
@@ -9,10 +19,10 @@
   padding-left: 10px;
   border: 1px solid black;
 }
-.menu {
+.Top-menu {
   display: flex;
 }
-.float {
+.float { 
   margin-top: -30px;
   display: flex;
   float: right;

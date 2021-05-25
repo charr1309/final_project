@@ -18,6 +18,7 @@ class Login extends Component {
           />
           <br />
           <button type="submit">Submit</button>
+          <button type="submit" id="signup">Create Account</button>
         </form>
       </div>
     );

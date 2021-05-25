@@ -6,15 +6,15 @@ class MainNav extends Component {
       <div>
         <div className="Navbar-main">
           <ul className="menu">
-            <li class="item">Real Estate Postcards</li>
-            <li class="item">Monthly Calender Postcards</li>
-            <li class="item">Sports Schedule Postcards</li>
-            <li class="item">Holiday and Seasonal Postcards</li>
-            <li class="item">Full Color Custom PostCards</li>
-            <li class="item">Mailing Services</li>
-            <li class="item">Business Cards</li>
-            <li class="item">Websites and Hosting</li>
-            <li class="item">Newsletters, Flyers, Folders etc.</li>
+            <li class="Main-item">Real Estate Postcards</li>
+            <li class="Main-item">Monthly Calender Postcards</li>
+            <li class="Main-item">Sports Schedule Postcards</li>
+            <li class="Main-item">Holiday and Seasonal Postcards</li>
+            <li class="Main-item">Full Color Custom PostCards</li>
+            <li class="Main-item">Mailing Services</li>
+            <li class="Main-item">Business Cards</li>
+            <li class="Main-item">Websites and Hosting</li>
+            <li class="Main-item">Newsletters, Flyers, Folders etc.</li>
           </ul>
         </div>
       </div>

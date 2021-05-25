@@ -9,7 +9,7 @@ import Login from "./Login";
 import "./Login.css";
 function App() {
   return (
-    <>
+    <div className='container'>
       <div>
         <TopNav />
       </div>
@@ -18,14 +18,14 @@ function App() {
       </div>
       <div>
         <img src={logo} />
-      </div>f
+      </div>
       <div>
         <MainNav />
       </div>
       <div>
         <img src={headerImage} />
       </div>
-    </>
+    </div>
   );
 }
 
