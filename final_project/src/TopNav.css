@@ -1,0 +1,19 @@
+.Navbar-top {
+  display: flex;
+  height: 40px;
+}
+.items {
+  display: flex;
+  height: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: 1px solid black;
+}
+.menu {
+  display: flex;
+}
+.float {
+  margin-top: -30px;
+  display: flex;
+  float: right;
+}

@@ -1,0 +1,18 @@
+.Navbar-main {
+  /* display: flex; */
+  width: 95%;
+  height: 75px;
+  margin-top: 50px;
+  text-align: center;
+
+}
+.items {
+  max-width: 150px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
