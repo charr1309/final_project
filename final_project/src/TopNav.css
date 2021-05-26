@@ -3,7 +3,7 @@ body{
     margin: auto;
 }
 .container{
-    width: 90vw;
+    width: 95%;
     margin-left: 20px;
 }
 
@@ -19,11 +19,8 @@ body{
   padding-left: 10px;
   border: 1px solid black;
 }
+
 .Top-menu {
   display: flex;
 }
-.float { 
-  margin-top: -30px;
-  display: flex;
-  float: right;
-}
+

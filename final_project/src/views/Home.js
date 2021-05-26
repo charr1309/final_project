@@ -6,7 +6,7 @@ class Home extends Component {
         return(
             <div>
                 <div>
-                    <img src={headerImage} />
+                    <img src={headerImage} alt='header' />
                 </div>
             </div>
         )
