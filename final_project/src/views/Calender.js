@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-
+import FadeIn from 'react-fade-in';
 export default class Calender extends Component {
     render() {
         return (
+            <FadeIn>
             <div>
                 <h1>Atlanta Events - Monthly Calendar Postcards</h1>
                 <h3>Some of the venues our cards include:</h3>
@@ -21,6 +22,8 @@ export default class Calender extends Component {
                 <p>Base price: 25¢ for 9" x 6"<br></br>
                     Pricing: Click here.</p>
             </div>
+            </FadeIn>
+            
         )
     }
 }

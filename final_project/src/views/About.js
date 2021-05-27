@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
+import FadeIn from 'react-fade-in';
 
 export default class About extends Component {
     render() {
         return (
             <div>
-                <div>
+                <FadeIn>
+                <div >
                     <h1>About Mr. Postcard</h1>
                     <p>Mr. Postcard has been facilitating direct mail advertising needs of individuals and businesses since 1996. Starting with the real estate market, founder Michael Vander Werf, who is known as "Mr. Postcard" to his friends, opened a small postcard company to assist realtors in their quest to market and sell property in and around metropolitan Atlanta. In just a few short months, success struck and the postcard business took off. Mr. Postcard, realizing that he could help more than just real estate agents, began designing and printing postcards for businesses and industries throughout the Atlanta area.</p>
                     <h2>Meet Just a Few of Our Clients... but you probably already know them</h2>
@@ -27,6 +29,7 @@ export default class About extends Component {
                     <p>Accounting</p>
                     <p>Email: al@mrpostcard.com</p>
                 </div>
+                </FadeIn>
                 
             </div>
         )

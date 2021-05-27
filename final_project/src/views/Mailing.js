@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
+import FadeIn from 'react-fade-in';
 
 export default class Mailing extends Component {
     render() {
         return (
-            <div>
+            <FadeIn>
+                <div>
                 <h1>Mailing Services</h1>
                 <h2>We will mail more than just postcards: Also choose Mr PostCard for your next newsletter, sales letter, thank you card, or invitation.</h2>
                 <p>Mailing fees include...</p>
@@ -52,6 +54,8 @@ export default class Mailing extends Component {
                 <p>*We waive the setu fee at 200+ if we are mailing for you</p>
                 <p>Order Now: By phone - 404.849.6139- By email- info@mrpostcard.com</p>
             </div>
+            </FadeIn>
+            
         )
     }
 }

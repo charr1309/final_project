@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
+import FadeIn from 'react-fade-in';
 
 export default class BusinessCards extends Component {
     render() {
         return (
+            <FadeIn>
             <div>
                 <h1>Custom BusinessCards</h1>
                 <h2>Full Color, both sides: Get 2,500 business cards for only $175.</h2>
@@ -15,6 +17,8 @@ export default class BusinessCards extends Component {
                 <p>Pricing: Click here</p>
                 <p>A few samples of our work--Click image to enlarge</p>
             </div>
+            </FadeIn>
+            
         )
     }
 }

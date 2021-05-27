@@ -1,14 +1,18 @@
-import React, {Component} from 'react';
+import React, {Component, createFactory} from 'react';
 import headerImage from "../headerImage.png";
+import FadeIn from 'react-fade-in';
 
 class Home extends Component {
     render () {
         return(
-            <div>
+            <FadeIn>
                 <div>
-                    <img src={headerImage} alt='header' />
+                <div className="fade-in-image">
+                    <img className="resize" src={headerImage} alt='header' />
                 </div>
             </div>
+            </FadeIn>
+            
         )
     }
 }

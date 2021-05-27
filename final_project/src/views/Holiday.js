@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-
+import FadeIn from 'react-fade-in';
 export default class Holiday extends Component {
     render() {
         return (
+            <FadeIn>
             <div>
                 <h1>Seasonal Pre-Printed Postcards</h1>
                 <h2>Cards for every major holiday! See our gallery below.</h2>
@@ -12,6 +13,8 @@ export default class Holiday extends Component {
                 <p>Order now:<br></br>
                     By phone - 404.849.6139 · By email - info@mrpostcard.com</p>
             </div>
+            </FadeIn>
+            
         )
     }
 }

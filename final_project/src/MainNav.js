@@ -5,7 +5,7 @@ class MainNav extends Component {
   render() {
     return (
       <div>
-          <div className="Navbar-main">
+          <div className="Navbar-main" >
             <div className='menu'>
             <NavLink className="Main-item" to='/RealEstate'>Real Estate Postcards</NavLink>
             <NavLink className="Main-item" to='/Calender'>Monthly Calender Postcards</NavLink>

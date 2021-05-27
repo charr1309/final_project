@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-
+import FadeIn from 'react-fade-in';
 class Contact extends Component {
   render() {
     return (
       <div>
+        <FadeIn>
         <div>
           <h1>Contact Mr. PostCard</h1>
           <p>Phone: 404.849.6139</p>
@@ -42,6 +43,8 @@ class Contact extends Component {
             <button type="Submit">Submit</button>    
           </form>
         </div>
+        </FadeIn>
+        
         
       </div>
     );

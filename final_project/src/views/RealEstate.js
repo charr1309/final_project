@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
-
+import FadeIn from 'react-fade-in';
 
 
 export default class RealEstate extends Component {
     render() {
         return (
-            <div>
+            <FadeIn>
+                <div>
                 <h1>Real Estate Pre-Printed Postcards</h1>
                 <h2>Mail 100 pre-printed postcards for just $75, all costs included.</h2>
                 <p>Choose a postcard from our gallery below or create a professional custom postcard.</p>
@@ -14,6 +15,8 @@ export default class RealEstate extends Component {
                 <p>Order now:<br></br>
                     By phone - 404.849.6139 · By email - info@mrpostcard.com</p>
             </div>
+            </FadeIn>
+            
         )
     }
 }

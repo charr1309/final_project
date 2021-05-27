@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import FadeIn from 'react-fade-in';
 
 export default class SiteNewsletter extends Component {
     render() {
         return (
-            <div>
+            <FadeIn>
+                <div>
                 <div>
                 <h1>Newsletter & Marketing Resources:</h1>
                 <p>Your "home base" for broadening your marketing knowledge and honing your skills.</p>
@@ -15,6 +17,8 @@ export default class SiteNewsletter extends Component {
                 <h2 className="highlight">Articles - Direct mail and marketing advice from experts</h2>
                 </div>
             </div>
+            </FadeIn>
+            
         )
     }
 }

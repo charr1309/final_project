@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
+import FadeIn from 'react-fade-in';
 
 export default class FullColor extends Component {
     render() {
         return (
-            <div>
+            <FadeIn>
+                <div>
                 <h1>Professional Custom Postcards for your Business</h1>
                 <h3>Create the right image for your business with our customized postcards</h3>
                 <p>Order Now - By phone - 404.849.6139 By email - info@mrpostcard.com</p>
@@ -16,6 +18,8 @@ export default class FullColor extends Component {
                 <p>Pricing: Click here.</p>
                  <h3>A few samples of our work. Click image to enlarge</h3>
             </div>
+            </FadeIn>
+            
         )
     }
 }
