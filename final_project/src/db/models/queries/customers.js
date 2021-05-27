@@ -1,0 +1,2 @@
+const { Query } = require("../models");
+
