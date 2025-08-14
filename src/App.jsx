@@ -6,7 +6,7 @@ import logo from "./logo.png";
 import Login from "./Login.jsx";
 import { routes } from "./views/Index.jsx";
 import "./Login.css";
-import { Switch, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
@@ -24,17 +24,16 @@ function App() {
         <div>
           <MainNav />
         </div>
-        <Switch>
+        <Routes>
           {routes.map((route, index) => (
             <Route 
               key={index}
-              exact 
               path={route.path}
+              element={<route.Component />}
             >
-              <route.Component />
             </Route>
           ))}
-        </Switch>
+        </Routes>
       </div>
     </BrowserRouter>
   );
