@@ -10,29 +10,31 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div className="container">
-      <div>
-        <TopNav />
+    <BrowserRouter>
+      <div className="container">
+        <div>
+          <TopNav />
+        </div>
+        <div>
+          <Login />
+        </div>
+        <div>
+          <img src={logo} alt="logo" />
+        </div>
+        <div>
+          <MainNav />
+        </div>
+        <Routes>
+          {routes.map((route, index) => (
+            <Route 
+              key={index}
+              path={route.path} 
+              element={<route.Component />} 
+            />
+          ))}
+        </Routes>
       </div>
-      <div>
-        <Login />
-      </div>
-      <div>
-        <img src={logo} alt="logo" />
-      </div>
-      <div>
-        <MainNav />
-      </div>
-      <Routes>
-        {routes.map((route, index) => (
-          <Route 
-            key={index}
-            path={route.path} 
-            element={<route.Component />} 
-          />
-        ))}
-      </Routes>
-    </div>
+    </BrowserRouter>
   );
 }
 
