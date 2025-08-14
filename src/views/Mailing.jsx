@@ -31,24 +31,24 @@ export default class Mailing extends Component {
                         <div style={{position: 'relative', minWidth: '450px', height: '300px'}}>
                             {/* Circular arrangement */}
                             <img 
-                                src="https://images.pexels.com/photos/1591062/pexels-photo-1591062.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
-                                alt="Mailing Service Postcard" 
-                                style={{width: '200px', height: '130px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 6px 12px rgba(0,0,0,0.3)', position: 'absolute', top: '20px', left: '125px', transform: 'rotate(-10deg)'}}
-                            />
-                            <img 
-                                src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
-                                alt="Mailing Service Postcard 2" 
-                                style={{width: '200px', height: '130px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 6px 12px rgba(0,0,0,0.3)', position: 'absolute', top: '80px', left: '50px', transform: 'rotate(-35deg)'}}
-                            />
-                            <img 
                                 src="https://images.pexels.com/photos/1591061/pexels-photo-1591061.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
-                                alt="Mailing Service Postcard 3" 
-                                style={{width: '200px', height: '130px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 6px 12px rgba(0,0,0,0.3)', position: 'absolute', top: '80px', left: '200px', transform: 'rotate(35deg)'}}
+                                alt="Mail Service Postcard" 
+                                style={{width: '260px', height: '170px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 6px 12px rgba(0,0,0,0.3)', position: 'absolute', top: '20px', left: '125px', transform: 'rotate(-10deg)'}}
+                            />
+                            <img 
+                                src="https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
+                                alt="Mail Service Postcard 2" 
+                                style={{width: '260px', height: '170px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 6px 12px rgba(0,0,0,0.3)', position: 'absolute', top: '80px', left: '50px', transform: 'rotate(-35deg)'}}
+                            />
+                            <img 
+                                src="https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
+                                alt="Mail Service Postcard 3" 
+                                style={{width: '260px', height: '170px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 6px 12px rgba(0,0,0,0.3)', position: 'absolute', top: '80px', left: '200px', transform: 'rotate(35deg)'}}
                             />
                             <img 
                                 src="https://images.pexels.com/photos/1591058/pexels-photo-1591058.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
-                                alt="Mailing Service Postcard 4" 
-                                style={{width: '200px', height: '130px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 6px 12px rgba(0,0,0,0.3)', position: 'absolute', top: '150px', left: '125px', transform: 'rotate(10deg)'}}
+                                alt="Mail Service Postcard 4" 
+                                style={{width: '260px', height: '170px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 6px 12px rgba(0,0,0,0.3)', position: 'absolute', top: '150px', left: '125px', transform: 'rotate(10deg)'}}
                             />
                         </div>
                     </div>

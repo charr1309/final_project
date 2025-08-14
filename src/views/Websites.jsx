@@ -8,8 +8,8 @@ export default class Websites extends Component {
                 <div>
                     <div style={{position: 'relative', textAlign: 'center', marginBottom: '30px'}}>
                         <img 
-                            src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
-                            alt="Website Design" 
+                            src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
+                            alt="Website Design and Hosting" 
                             style={{width: '350px', height: '220px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.2)', display: 'inline-block'}}
                         />
                     </div>
