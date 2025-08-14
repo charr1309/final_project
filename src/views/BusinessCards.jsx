@@ -6,11 +6,6 @@ export default class BusinessCards extends Component {
         return (
             <FadeIn>
                 <div>
-                    <img 
-                        src="https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                        alt="Business Cards" 
-                        style={{width: '100%', height: '300px', objectFit: 'cover', marginBottom: '20px'}}
-                    />
                     <h1>Custom BusinessCards</h1>
                     <h2>Full Color, both sides: Get 2,500 business cards for only $175.</h2>
                     <p>included in the price</p>
@@ -21,6 +16,18 @@ export default class BusinessCards extends Component {
                     </ul>
                     <p>Pricing: Click here</p>
                     <p>A few samples of our work--Click image to enlarge</p>
+                    <div style={{position: 'relative', textAlign: 'center', marginTop: '30px'}}>
+                        <img 
+                            src="https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
+                            alt="Business Card Design" 
+                            style={{width: '280px', height: '180px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.2)', transform: 'rotate(1deg)', display: 'inline-block'}}
+                        />
+                        <img 
+                            src="https://images.pexels.com/photos/6802049/pexels-photo-6802049.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
+                            alt="Business Card Design 2" 
+                            style={{width: '280px', height: '180px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.2)', position: 'absolute', top: '15px', left: '50%', marginLeft: '-125px', transform: 'rotate(-2deg)'}}
+                        />
+                    </div>
                 </div>
             </FadeIn>
         )

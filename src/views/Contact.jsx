@@ -7,15 +7,17 @@ class Contact extends Component {
       <div>
         <FadeIn>
           <div>
-            <img 
-              src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-              alt="Contact Us" 
-              style={{width: '100%', height: '300px', objectFit: 'cover', marginBottom: '20px'}}
-            />
             <h1>Contact Mr. PostCard</h1>
             <p>Phone: 404.849.6139</p>
             <p>Fax: 404.921.1023</p>
             <p>Email: info@mrpostcard.com</p>
+            <div style={{position: 'relative', textAlign: 'center', margin: '30px 0'}}>
+              <img 
+                src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
+                alt="Contact Information" 
+                style={{width: '350px', height: '220px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.2)', display: 'inline-block'}}
+              />
+            </div>
             <form>
               <label htmlFor="Name">Name</label><br />
               <input type="text" id="Name" name="Name" /><br />

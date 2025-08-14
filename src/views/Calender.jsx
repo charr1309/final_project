@@ -6,11 +6,18 @@ export default class Calender extends Component {
         return (
             <FadeIn>
                 <div>
-                    <img 
-                        src="https://images.pexels.com/photos/1020315/pexels-photo-1020315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                        alt="Calendar and Events" 
-                        style={{width: '100%', height: '300px', objectFit: 'cover', marginBottom: '20px'}}
-                    />
+                    <div style={{position: 'relative', textAlign: 'center', marginBottom: '30px'}}>
+                        <img 
+                            src="https://images.pexels.com/photos/1020315/pexels-photo-1020315.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
+                            alt="Calendar Postcard" 
+                            style={{width: '280px', height: '180px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.2)', transform: 'rotate(2deg)', display: 'inline-block'}}
+                        />
+                        <img 
+                            src="https://images.pexels.com/photos/1591061/pexels-photo-1591061.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
+                            alt="Calendar Postcard 2" 
+                            style={{width: '280px', height: '180px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.2)', position: 'absolute', top: '15px', left: '50%', marginLeft: '-125px', transform: 'rotate(-3deg)'}}
+                        />
+                    </div>
                     <h1>Atlanta Events - Monthly Calendar Postcards</h1>
                     <h3>Some of the venues our cards include:</h3>
                     <ul>
