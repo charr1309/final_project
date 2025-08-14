@@ -8,7 +8,7 @@ export default class Newsletter extends Component {
                 <div>
                     <div style={{position: 'relative', textAlign: 'center', marginBottom: '30px'}}>
                         <img 
-                            src="https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
+                            src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
                             alt="Newsletter and Flyer Design" 
                             style={{width: '450px', height: '280px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 6px 12px rgba(0,0,0,0.3)', display: 'inline-block'}}
                         />
