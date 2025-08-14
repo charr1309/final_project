@@ -6,6 +6,11 @@ export default class Mailing extends Component {
         return (
             <FadeIn>
                 <div>
+                    <img 
+                        src="https://images.pexels.com/photos/1591062/pexels-photo-1591062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                        alt="Mail Delivery Service" 
+                        style={{width: '100%', height: '300px', objectFit: 'cover', marginBottom: '20px'}}
+                    />
                     <h1>Mailing Services</h1>
                     <h2>We will mail more than just postcards: Also choose Mr PostCard for your next newsletter, sales letter, thank you card, or invitation.</h2>
                     <p>Mailing fees include...</p>

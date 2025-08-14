@@ -6,6 +6,11 @@ export default class FullColor extends Component {
         return (
             <FadeIn>
                 <div>
+                    <img 
+                        src="https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                        alt="Custom Postcards Design" 
+                        style={{width: '100%', height: '300px', objectFit: 'cover', marginBottom: '20px'}}
+                    />
                     <h1>Professional Custom Postcards for your Business</h1>
                     <h3>Create the right image for your business with our customized postcards</h3>
                     <p>Order Now - By phone - 404.849.6139 By email - info@mrpostcard.com</p>

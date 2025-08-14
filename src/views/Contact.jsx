@@ -7,6 +7,11 @@ class Contact extends Component {
       <div>
         <FadeIn>
           <div>
+            <img 
+              src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+              alt="Contact Us" 
+              style={{width: '100%', height: '300px', objectFit: 'cover', marginBottom: '20px'}}
+            />
             <h1>Contact Mr. PostCard</h1>
             <p>Phone: 404.849.6139</p>
             <p>Fax: 404.921.1023</p>

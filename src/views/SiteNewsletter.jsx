@@ -7,6 +7,11 @@ export default class SiteNewsletter extends Component {
             <FadeIn>
                 <div>
                     <div>
+                        <img 
+                            src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                            alt="Newsletter Marketing" 
+                            style={{width: '100%', height: '300px', objectFit: 'cover', marginBottom: '20px'}}
+                        />
                         <h1>Newsletter & Marketing Resources:</h1>
                         <p>Your "home base" for broadening your marketing knowledge and honing your skills.</p>
                         <h2 className="highlight">Mr. Postcard Newsletter</h2>

@@ -6,6 +6,11 @@ export default class Holiday extends Component {
         return (
             <FadeIn>
                 <div>
+                    <img 
+                        src="https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                        alt="Holiday Decorations" 
+                        style={{width: '100%', height: '300px', objectFit: 'cover', marginBottom: '20px'}}
+                    />
                     <h1>Seasonal Pre-Printed Postcards</h1>
                     <h2>Cards for every major holiday! See our gallery below.</h2>
                     <p>Choose a postcard from our gallery below or create a professional custom postcard</p>

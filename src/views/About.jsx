@@ -7,6 +7,11 @@ export default class About extends Component {
             <div>
                 <FadeIn>
                     <div>
+                        <img 
+                            src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                            alt="About Our Team" 
+                            style={{width: '100%', height: '300px', objectFit: 'cover', marginBottom: '20px'}}
+                        />
                         <h1>About Mr. Postcard</h1>
                         <p>Mr. Postcard has been facilitating direct mail advertising needs of individuals and businesses since 1996. Starting with the real estate market, founder Michael Vander Werf, who is known as "Mr. Postcard" to his friends, opened a small postcard company to assist realtors in their quest to market and sell property in and around metropolitan Atlanta. In just a few short months, success struck and the postcard business took off. Mr. Postcard, realizing that he could help more than just real estate agents, began designing and printing postcards for businesses and industries throughout the Atlanta area.</p>
                         <h2>Meet Just a Few of Our Clients... but you probably already know them</h2>
