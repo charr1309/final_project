@@ -6,7 +6,7 @@ import logo from "./logo.png";
 import Login from "./Login";
 import { routes } from "./views/Index";
 import "./Login.css";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 function App() {
   return (
