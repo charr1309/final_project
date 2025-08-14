@@ -47,3 +47,4 @@ export default class BusinessCards extends Component {
             </FadeIn>
         )
     }
+}
