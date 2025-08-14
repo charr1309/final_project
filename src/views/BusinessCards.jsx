@@ -47,3 +47,6 @@ export default class BusinessCards extends Component {
         )
     }
 }
+        )
+    }
+}
