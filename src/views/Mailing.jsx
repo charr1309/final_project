@@ -7,7 +7,7 @@ export default class Mailing extends Component {
             <FadeIn>
                 <div>
                     <h1>Mailing Services</h1>
-                    <div style={{display: 'flex', alignItems: 'flex-start', gap: '30px', marginBottom: '20px'}}>
+                    <div style={{display: 'flex', alignItems: 'flex-start', gap: '40px', marginBottom: '20px', width: '100%'}}>
                         <div style={{flex: '1'}}>
                             <h2>We will mail more than just postcards: Also choose Mr PostCard for your next newsletter, sales letter, thank you card, or invitation.</h2>
                             <p>Mailing fees include...</p>
@@ -28,16 +28,27 @@ export default class Mailing extends Component {
                                 <li>Sending something other than a postcard? We can help provide your finishing services too. Call for pricing based on your specific needs.</li>
                             </ul>
                         </div>
-                        <div style={{position: 'relative', minWidth: '300px'}}>
+                        <div style={{position: 'relative', minWidth: '450px', height: '300px'}}>
+                            {/* Circular arrangement */}
                             <img 
                                 src="https://images.pexels.com/photos/1591062/pexels-photo-1591062.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
                                 alt="Mailing Service Postcard" 
-                                style={{width: '280px', height: '180px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.2)', transform: 'rotate(2deg)'}}
+                                style={{width: '200px', height: '130px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 6px 12px rgba(0,0,0,0.3)', position: 'absolute', top: '20px', left: '125px', transform: 'rotate(-10deg)'}}
                             />
                             <img 
                                 src="https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
                                 alt="Mailing Service Postcard 2" 
-                                style={{width: '280px', height: '180px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.2)', position: 'absolute', top: '15px', left: '15px', transform: 'rotate(-3deg)'}}
+                                style={{width: '200px', height: '130px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 6px 12px rgba(0,0,0,0.3)', position: 'absolute', top: '80px', left: '50px', transform: 'rotate(-35deg)'}}
+                            />
+                            <img 
+                                src="https://images.pexels.com/photos/1591061/pexels-photo-1591061.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
+                                alt="Mailing Service Postcard 3" 
+                                style={{width: '200px', height: '130px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 6px 12px rgba(0,0,0,0.3)', position: 'absolute', top: '80px', left: '200px', transform: 'rotate(35deg)'}}
+                            />
+                            <img 
+                                src="https://images.pexels.com/photos/1591058/pexels-photo-1591058.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
+                                alt="Mailing Service Postcard 4" 
+                                style={{width: '200px', height: '130px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 6px 12px rgba(0,0,0,0.3)', position: 'absolute', top: '150px', left: '125px', transform: 'rotate(10deg)'}}
                             />
                         </div>
                     </div>

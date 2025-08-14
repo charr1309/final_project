@@ -7,17 +7,28 @@ export default class Holiday extends Component {
             <FadeIn>
                 <div>
                     <h1>Seasonal Pre-Printed Postcards</h1>
-                    <div style={{display: 'flex', alignItems: 'center', gap: '30px', marginBottom: '20px'}}>
-                        <div style={{position: 'relative', minWidth: '300px'}}>
+                    <div style={{display: 'flex', alignItems: 'center', gap: '40px', marginBottom: '20px', width: '100%'}}>
+                        <div style={{position: 'relative', minWidth: '450px', height: '300px'}}>
+                            {/* Grid layout */}
                             <img 
                                 src="https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
                                 alt="Holiday Postcard" 
-                                style={{width: '280px', height: '180px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.2)', transform: 'rotate(3deg)'}}
+                                style={{width: '200px', height: '130px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 6px 12px rgba(0,0,0,0.3)', position: 'absolute', top: '20px', left: '20px', transform: 'rotate(8deg)'}}
                             />
                             <img 
                                 src="https://images.pexels.com/photos/1303098/pexels-photo-1303098.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
                                 alt="Holiday Postcard 2" 
-                                style={{width: '280px', height: '180px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.2)', position: 'absolute', top: '15px', left: '15px', transform: 'rotate(-2deg)'}}
+                                style={{width: '200px', height: '130px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 6px 12px rgba(0,0,0,0.3)', position: 'absolute', top: '20px', left: '240px', transform: 'rotate(-5deg)'}}
+                            />
+                            <img 
+                                src="https://images.pexels.com/photos/1303095/pexels-photo-1303095.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
+                                alt="Holiday Postcard 3" 
+                                style={{width: '200px', height: '130px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 6px 12px rgba(0,0,0,0.3)', position: 'absolute', top: '160px', left: '20px', transform: 'rotate(-12deg)'}}
+                            />
+                            <img 
+                                src="https://images.pexels.com/photos/1303099/pexels-photo-1303099.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&dpr=1" 
+                                alt="Holiday Postcard 4" 
+                                style={{width: '200px', height: '130px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 6px 12px rgba(0,0,0,0.3)', position: 'absolute', top: '160px', left: '240px', transform: 'rotate(15deg)'}}
                             />
                         </div>
                         <div style={{flex: '1'}}>
