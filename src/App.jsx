@@ -1,10 +1,10 @@
-import TopNav from "./TopNav";
-import MainNav from "./MainNav";
+import TopNav from "./TopNav.jsx";
+import MainNav from "./MainNav.jsx";
 import "./MainNav.css";
 import "./TopNav.css";
 import logo from "./logo.png";
-import Login from "./Login";
-import { routes } from "./views/Index";
+import Login from "./Login.jsx";
+import { routes } from "./views/Index.jsx";
 import "./Login.css";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 
