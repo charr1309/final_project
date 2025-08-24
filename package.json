@@ -2,7 +2,7 @@
   "name": "mr-postcard-website",
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://yourusername.github.io/mr-postcard-website",
+  "homepage": "https://yourusername.github.io/final-project",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
