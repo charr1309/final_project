@@ -10,7 +10,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter basename="/final-project">
+    <BrowserRouter basename="/final_project">
       <div className="container">
         <div>
           <TopNav />
