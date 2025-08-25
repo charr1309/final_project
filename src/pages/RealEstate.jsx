@@ -118,26 +118,6 @@ const RealEstate = () => {
         </div>
       </div>
 
-      <div className="service-actions">
-        <div className="container">
-          <h2>Pricing</h2>
-          <div className="pricing-card">
-            <h3>Real Estate Special</h3>
-            <div className="price">$75</div>
-            <p>For 100 postcards, all costs included</p>
-            <ul>
-              <li>Professional design</li>
-              <li>High-quality printing</li>
-              <li>Standard shipping</li>
-              <li>No hidden fees</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="contact-cta">
-        </div>
-      </div>
-
       <div className="cta-section">
         <div className="container">
           <h2>Ready to Dominate Your Market?</h2>
