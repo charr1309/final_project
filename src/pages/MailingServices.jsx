@@ -32,7 +32,7 @@ const MailingServices = () => {
   ];
 
   return (
-    <section className="service-page">
+    <section className="service-page" style={{paddingTop: '140px'}}>
       <Link to="/" className="back-button">
         ← Back to Home
       </Link>
@@ -78,7 +78,7 @@ const MailingServices = () => {
           </div>
           
           <div className="service-images animate-fadeInRight">
-            <div className="image-grid">
+            <div className="mailing-images-grid">
               {mailImages.map((image, index) => (
                 <div key={index} className="sample-image" style={{animationDelay: `${index * 0.2}s`}}>
                   <img src={image} alt={`Mailing Service ${index + 1}`} />

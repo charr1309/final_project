@@ -919,7 +919,7 @@ body {
 
 .holiday-gallery-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
   justify-items: center;
 }
@@ -1079,6 +1079,12 @@ body {
 
 .social-links {
   display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.mailing-images-grid {
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   justify-items: center;
