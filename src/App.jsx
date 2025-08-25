@@ -1,36 +1,19 @@
-import TopNav from "./TopNav.jsx";
-import MainNav from "./MainNav.jsx";
-import "./MainNav.css";
-import "./TopNav.css";
-import Login from "./Login.jsx";
-import { routes } from "./views/Index.jsx";
-import "./Login.css";
-import { Routes, Route, HashRouter } from "react-router-dom";
+import React from 'react';
+import './index.css';
 
 function App() {
   return (
-    <HashRouter>
-      <div className="container">
-        <div>
-          <TopNav />
-        </div>
-        <div>
-          <Login />
-        </div>
-        <div>
-          <MainNav />
-        </div>
-        <Routes>
-          {routes.map((route, index) => (
-            <Route 
-              key={index}
-              path={route.path}
-              element={<route.Component />}
-            />
-          ))}
-        </Routes>
-      </div>
-    </HashRouter>
+    <div style={{ padding: '20px' }}>
+      <h1>Mr. Postcard</h1>
+      <p>Professional postcard services since 1996.</p>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Contact</li>
+          <li>About</li>
+        </ul>
+      </nav>
+    </div>
   );
 }
 
