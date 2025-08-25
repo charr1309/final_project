@@ -636,7 +636,7 @@ body {
 .features-section {
   background: #f8fafc;
   padding: 6rem 0;
-  margin: 4rem 0;
+  margin: 2rem 0;
 }
 
 .features-header {
@@ -748,7 +748,7 @@ body {
   padding: 6rem 3rem;
   border-radius: 30px;
   text-align: center;
-  margin: 5rem 0;
+  margin: 3rem 0;
   position: relative;
   overflow: hidden;
 }
@@ -814,7 +814,7 @@ body {
   list-style: none;
   padding: 0;
   margin: 2rem 0;
-  text-align: left;
+  text-align: center;
 }
 
 .pricing-card li {
