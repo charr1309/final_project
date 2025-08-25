@@ -82,7 +82,7 @@ function Holiday() {
 
           <div className="gallery-section">
             <h2>Holiday Card Examples</h2>
-            <div className="gallery-grid">
+            <div className="holiday-gallery-grid">
               <div className="gallery-item">
                 <img src="https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Christmas postcard design" />
                 <p>Christmas Greetings</p>
