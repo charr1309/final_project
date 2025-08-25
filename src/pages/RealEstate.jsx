@@ -90,6 +90,16 @@ const RealEstate = () => {
               <p>100 postcards for just $75 - no hidden fees, no surprises, just great value</p>
             </div>
             <div className="feature-card animate-fadeInUp" style={{animationDelay: '0.3s'}}>
+              <div className="feature-icon">⚡</div>
+              <h3>Fast Turnaround</h3>
+              <p>Quick processing and delivery to get your marketing campaign started fast</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="pricing-section">
+        <div className="container">
           <h2>Real Estate Special Pricing</h2>
           <div className="pricing-grid">
             <div className="pricing-card animate-fadeInUp">
@@ -104,7 +114,12 @@ const RealEstate = () => {
                 <li>No hidden costs</li>
               </ul>
             </div>
-            <div className="service-actions">
+          </div>
+        </div>
+      </div>
+
+      <div className="service-actions">
+        <div className="container">
           <h2>Pricing</h2>
           <div className="pricing-card">
             <h3>Real Estate Special</h3>
@@ -136,7 +151,9 @@ const RealEstate = () => {
               <span className="contact-icon">📧</span>
               info@mrpostcard.com
             </a>
+          </div>
         </div>
+      </div>
     </div>
   );
 };
