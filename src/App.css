@@ -549,7 +549,7 @@ body {
 /* Page Styles */
 .page-container {
   min-height: 100vh;
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 .page-header {

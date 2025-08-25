@@ -25,6 +25,12 @@ const MailingServices = () => {
     { quantity: "2,000 +", price: "34¢", note: "" }
   ];
 
+  const mailImages = [
+    "https://images.pexels.com/photos/1591061/pexels-photo-1591061.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+    "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+    "https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1"
+  ];
+
   return (
     <section className="service-page">
       <Link to="/" className="back-button">
@@ -72,17 +78,12 @@ const MailingServices = () => {
           </div>
           
           <div className="service-images animate-fadeInRight">
-            <div className="mailing-showcase">
-              <img 
-                src="https://images.pexels.com/photos/1591061/pexels-photo-1591061.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1" 
-                alt="Mailing Services" 
-                className="main-image"
-              />
-              <img 
-                src="https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&dpr=1" 
-                alt="Mail Processing" 
-                className="overlay-image"
-              />
+            <div className="image-grid">
+              {mailImages.map((image, index) => (
+                <div key={index} className="sample-image" style={{animationDelay: `${index * 0.2}s`}}>
+                  <img src={image} alt={`Mailing Service ${index + 1}`} />
+                </div>
+              ))}
             </div>
           </div>
         </div>
