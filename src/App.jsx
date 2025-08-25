@@ -2,7 +2,6 @@ import TopNav from "./TopNav.jsx";
 import MainNav from "./MainNav.jsx";
 import "./MainNav.css";
 import "./TopNav.css";
-import logo from "./logo.png";
 import Login from "./Login.jsx";
 import { routes } from "./views/Index.jsx";
 import "./Login.css";
@@ -19,9 +18,6 @@ function App() {
           <Login />
         </div>
         <div>
-          <img src={logo} alt="logo" />
-        </div>
-        <div>
           <MainNav />
         </div>
         <Routes>
@@ -30,8 +26,7 @@ function App() {
               key={index}
               path={route.path}
               element={<route.Component />}
-            >
-            </Route>
+            />
           ))}
         </Routes>
       </div>

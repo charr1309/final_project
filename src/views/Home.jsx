@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import headerImage from '../headerImage.png';
 import FadeIn from 'react-fade-in';
 
 class Home extends Component {
@@ -7,9 +6,8 @@ class Home extends Component {
         return (
             <FadeIn>
                 <div>
-                    <div className="fade-in-image">
-                        <img className="resize" src={headerImage} alt='header' />
-                    </div>
+                    <h1>Welcome to Mr. Postcard</h1>
+                    <p>Your premier destination for professional postcard services since 1996.</p>
                 </div>
             </FadeIn>
         )
