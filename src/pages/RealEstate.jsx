@@ -64,6 +64,7 @@ const RealEstate = () => {
             </div>
           </div>
         </div>
+      </div>
 
       <div className="features-section">
         <div className="container">
