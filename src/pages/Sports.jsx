@@ -53,7 +53,7 @@ const Sports = () => {
                 alt="Sports Schedule Postcards" 
                 className="sidebar-image"
               />
-              <div className="cta-section">
+              <div className="cta-section-fixed-height">
                 <h3>Get Your Sports Schedules</h3>
                 <p>Perfect for businesses targeting sports fans</p>
                 <div className="cta-buttons">
