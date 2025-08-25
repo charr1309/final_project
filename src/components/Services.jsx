@@ -15,7 +15,7 @@ const Services = () => {
       title: "Monthly Calendar Postcards",
       description: "Atlanta events calendar postcards featuring major venues and attractions",
       icon: "📅",
-      image: "https://images.pexels.com/photos/1020315/pexels-photo-1020315.jpeg?auto=compress&cs=tinysrgb&w=400&h=300",
+      image: "https://images.pexels.com/photos/273230/pexels-photo-273230.jpeg?auto=compress&cs=tinysrgb&w=400&h=300",
       link: "/calendar",
       price: "From $0.25"
     },
