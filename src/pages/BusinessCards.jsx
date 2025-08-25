@@ -82,7 +82,7 @@ function BusinessCards() {
           </div>
 
           <div className="info-section">
-            <h3>Why Choose Our Business Cards?</h3>
+            <h3 style={{textAlign: 'center'}}>Why Choose Our Business Cards?</h3>
             <div className="info-grid centered-text">
               <div className="info-item">
                 <h4>Professional Design</h4>
