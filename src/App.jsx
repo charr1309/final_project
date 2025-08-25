@@ -1,27 +1,43 @@
 import React from 'react'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
+import TopNav from './TopNav'
+import MainNav from './MainNav'
+import Login from './Login'
+import { routes } from './views/Index'
+import './TopNav.css'
+import './MainNav.css'
+import './Login.css'
 
 function App() {
   return (
-    <div style={{ 
-      padding: '20px', 
-      fontFamily: 'Arial, sans-serif',
-      backgroundColor: '#f0f0f0',
-      minHeight: '100vh'
-    }}>
-      <h1 style={{ color: '#333', marginBottom: '20px' }}>Mr. Postcard</h1>
-      <p style={{ fontSize: '18px', color: '#666' }}>
-        Professional postcard services since 1996
-      </p>
-      <div style={{ marginTop: '30px' }}>
-        <h2>Our Services:</h2>
-        <ul>
-          <li>Real Estate Postcards</li>
-          <li>Business Cards</li>
-          <li>Custom Design</li>
-          <li>Mailing Services</li>
-        </ul>
+    <Router>
+      <div className="container">
+        <div>
+          <TopNav />
+        </div>
+        <div>
+          <Login />
+        </div>
+        <div style={{ textAlign: 'center', margin: '20px 0' }}>
+          <h1 style={{ color: '#333', fontSize: '2.5em', margin: '10px 0' }}>Mr. Postcard</h1>
+          <p style={{ color: '#666', fontSize: '1.2em' }}>Professional Postcard Services Since 1996</p>
+        </div>
+        <div>
+          <MainNav />
+        </div>
+        <div style={{ padding: '20px' }}>
+          <Routes>
+            {routes.map((route, index) => (
+              <Route 
+                key={index}
+                path={route.path} 
+                element={<route.Component />} 
+              />
+            ))}
+          </Routes>
+        </div>
       </div>
-    </div>
+    </Router>
   )
 }
 
