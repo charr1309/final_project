@@ -928,6 +928,10 @@ body {
   grid-column: 2;
 }
 
+.centered-feature {
+  grid-column: 2;
+}
+
 .cta-section {
   background: linear-gradient(135deg, #1a365d 0%, #2d3748 100%);
   color: white;

@@ -37,7 +37,7 @@ function Holiday() {
               <h3>Timely Delivery</h3>
               <p>Scheduled printing and mailing to arrive at the perfect time</p>
             </div>
-            <div className="feature-card">
+            <div className="feature-card centered-feature">
               <div className="feature-icon">💝</div>
               <h3>Special Offers</h3>
               <p>Include promotional codes and seasonal discounts</p>
