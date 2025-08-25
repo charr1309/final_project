@@ -657,8 +657,34 @@ body {
 .sidebar-image {
   width: 100%;
   border-radius: 15px;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  height: 300px;
+  object-fit: cover;
+}
+
+.cta-section-fixed-height {
+  background: linear-gradient(135deg, #48bb78, #38a169);
+  color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 10px 30px rgba(72, 187, 120, 0.3);
+}
+
+.cta-section-fixed-height h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.cta-section-fixed-height p {
+  margin-bottom: 2rem;
+  opacity: 0.9;
 }
 
 .features-section {

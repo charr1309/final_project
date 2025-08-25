@@ -53,7 +53,7 @@ const RealEstate = () => {
                 alt="Real Estate Postcards" 
                 className="sidebar-image"
               />
-              <div className="cta-section">
+              <div className="cta-section-fixed-height">
                 <h3>Ready to Get Started?</h3>
                 <p>Contact us today for your real estate postcard needs</p>
                 <div className="cta-buttons">
