@@ -664,7 +664,7 @@ body {
 }
 
 .cta-section-fixed-height {
-  background: linear-gradient(135deg, #2d7a3d, #1e5a28);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   padding: 2rem;
   border-radius: 15px;
@@ -673,7 +673,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-shadow: 0 10px 30px rgba(45, 122, 61, 0.3);
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
 }
 
 .cta-section-fixed-height h3 {
