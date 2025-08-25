@@ -5,11 +5,11 @@ import "./TopNav.css";
 import Login from "./Login.jsx";
 import { routes } from "./views/Index.jsx";
 import "./Login.css";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="container">
         <div>
           <TopNav />
@@ -30,7 +30,7 @@ function App() {
           ))}
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
