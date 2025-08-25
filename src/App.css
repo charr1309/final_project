@@ -930,6 +930,20 @@ body {
 
 .centered-feature {
   grid-column: 2;
+  justify-self: center;
+}
+
+.info-grid.centered-text {
+  text-align: center;
+}
+
+.info-grid.centered-text .info-item {
+  text-align: center;
+}
+
+.info-grid.centered-text h4,
+.info-grid.centered-text p {
+  text-align: center;
 }
 
 .cta-section {

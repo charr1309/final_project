@@ -39,6 +39,10 @@ function BusinessCards() {
               <h3>Bulk Pricing</h3>
               <p>Competitive rates for large quantities</p>
             </div>
+            <div className="feature-card centered-feature">
+              <h3>Professional Service</h3>
+              <p>Expert guidance throughout the entire process</p>
+            </div>
           </div>
 
           <div className="pricing-section">
@@ -79,7 +83,7 @@ function BusinessCards() {
 
           <div className="info-section">
             <h3>Why Choose Our Business Cards?</h3>
-            <div className="info-grid">
+            <div className="info-grid centered-text">
               <div className="info-item">
                 <h4>Professional Design</h4>
                 <p>Our experienced designers create cards that make an impact and reflect your brand identity.</p>
@@ -96,7 +100,7 @@ function BusinessCards() {
                 <h4>Competitive Pricing</h4>
                 <p>Professional quality at prices that work for businesses of all sizes.</p>
               </div>
-              <div className="info-item centered-feature" style={{gridColumn: 'span 2', textAlign: 'center'}}>
+              <div className="info-item centered-feature">
                 <h4>Bulk Pricing</h4>
                 <p>Special discounts available for large quantity orders and repeat customers.</p>
               </div>
