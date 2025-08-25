@@ -64,9 +64,6 @@ const RealEstate = () => {
             </div>
           </div>
         </div>
-        <div className="content-sidebar content-sidebar-tall animate-fadeInRight">
-        </div>
-      </div>
 
       <div className="features-section">
         <div className="container">
@@ -92,7 +89,7 @@ const RealEstate = () => {
           </div>
         </div>
       </div>
-
+      
       <div className="pricing-section">
         <div className="container">
           <h2>Real Estate Special Pricing</h2>
@@ -134,9 +131,6 @@ const RealEstate = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="features-section features-section-tight">
       </div>
     </div>
   );
