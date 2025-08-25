@@ -73,17 +73,14 @@ const RealEstate = () => {
           </div>
           <div className="features-grid">
             <div className="feature-card animate-fadeInUp" style={{animationDelay: '0.1s'}}>
-              <div className="feature-icon">🏆</div>
               <h3>Proven Results</h3>
               <p>Our postcards have helped thousands of real estate agents generate leads and close more deals</p>
             </div>
             <div className="feature-card animate-fadeInUp" style={{animationDelay: '0.2s'}}>
-              <div className="feature-icon">💎</div>
               <h3>Unbeatable Value</h3>
               <p>100 postcards for just $75 - no hidden fees, no surprises, just great value</p>
             </div>
             <div className="feature-card animate-fadeInUp" style={{animationDelay: '0.3s'}}>
-              <div className="feature-icon">🚀</div>
               <h3>Fast Turnaround</h3>
               <p>Quick processing and delivery to get your marketing campaign started fast</p>
             </div>

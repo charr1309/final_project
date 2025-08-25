@@ -744,13 +744,7 @@ body {
 }
 
 .feature-card .feature-icon {
-  font-size: 4rem;
-  margin-bottom: 2rem;
-  display: block;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  display: none;
 }
 
 .feature-icon-large {
