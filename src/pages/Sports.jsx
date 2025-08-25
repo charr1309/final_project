@@ -54,8 +54,8 @@ const Sports = () => {
                 className="sidebar-image"
               />
               <div className="cta-section-fixed-height">
-                <h3>Get Your Sports Schedules</h3>
-                <p>Perfect for businesses targeting sports fans</p>
+                <h3>Get Sports Schedules</h3>
+                <p>Target passionate sports fans</p>
                 <div className="cta-buttons">
                   <Link to="/contact" className="btn btn-primary">Get Pricing</Link>
                   <a href="tel:4048496139" className="btn btn-secondary">Call Now</a>
