@@ -956,8 +956,13 @@ body {
 }
 
 .cta-buttons {
-  display: flex;
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+  justify-items: center;
+}
+
+.gallery-grid .gallery-item:nth-child(4) {
+  grid-column: 2;
   justify-content: center;
   flex-wrap: wrap;
   position: relative;
