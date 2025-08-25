@@ -35,7 +35,7 @@ const Websites = () => {
   ];
 
   return (
-    <section className="service-page">
+    <section className="service-page" style={{paddingTop: '140px'}}>
       <Link to="/" className="back-button">
         ← Back to Home
       </Link>
@@ -69,7 +69,7 @@ const Websites = () => {
             </div>
           </div>
           
-          <div className="service-images animate-fadeInRight">
+          <div className="service-images animate-fadeInRight" style={{display: 'flex', justifyContent: 'center'}}>
             <div className="website-showcase">
               <img 
                 src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=500&h=400&dpr=1" 
@@ -105,7 +105,7 @@ const Websites = () => {
         <div className="portfolio-section">
           <h2>A few samples of our work</h2>
           <p>Click image to visit the sites</p>
-          <div className="website-portfolio-grid">
+          <div className="portfolio-grid-4">
             {portfolioSamples.map((sample, index) => (
               <div key={index} className="portfolio-item" style={{animationDelay: `${index * 0.2}s`}}>
                 <div className="portfolio-image">

@@ -974,6 +974,17 @@ body {
   opacity: 0.5;
 }
 
+.portfolio-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-items: center;
+}
+
+.portfolio-grid-4 .portfolio-item:nth-child(4) {
+  grid-column: 2;
+}
+
 .cta-section h2 {
   font-size: 3rem;
   margin-bottom: 1.5rem;
