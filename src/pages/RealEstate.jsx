@@ -137,8 +137,6 @@ const RealEstate = () => {
               info@mrpostcard.com
             </a>
         </div>
-      </div>
-      </div>
     </div>
   );
 };
