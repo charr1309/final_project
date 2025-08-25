@@ -64,7 +64,7 @@ const RealEstate = () => {
             </div>
           </div>
         </div>
-      </div>
+          <div className="content-sidebar content-sidebar-tall animate-fadeInRight">
 
       <div className="features-section">
         <div className="container">
@@ -95,17 +95,17 @@ const RealEstate = () => {
         <div className="container">
           <h2>Real Estate Special Pricing</h2>
           <div className="pricing-grid">
-            <div className="pricing-card animate-fadeInUp">
+            <div className="feature-icon-large">🏆</div>
               <h3>Standard Package</h3>
               <div className="price">$75</div>
               <p>For 100 postcards, everything included</p>
               <ul>
-                <li>Professional design selection</li>
+            <div className="feature-icon-large">💎</div>
                 <li>High-quality printing</li>
                 <li>Standard shipping included</li>
                 <li>No setup fees</li>
                 <li>No hidden costs</li>
-              </ul>
+            <div className="feature-icon-large">🚀</div>
             </div>
           </div>
         </div>
@@ -113,7 +113,7 @@ const RealEstate = () => {
 
       <div className="cta-section">
         <div className="container">
-          <h2>Ready to Dominate Your Market?</h2>
+    <div className="pricing-section pricing-section-tight">
           <p>Join thousands of successful real estate agents who trust Mr. Postcard</p>
           <div className="contact-options">
             <a href="tel:4048496139" className="contact-option">
@@ -121,9 +121,13 @@ const RealEstate = () => {
               404.849.6139
             </a>
             <a href="mailto:info@mrpostcard.com" className="contact-option">
-              <span className="contact-icon">📧</span>
+            <ul className="pricing-list-centered">
               info@mrpostcard.com
             </a>
+            <div className="additional-info">
+              <h4>Special Broker Pricing</h4>
+              <p>Ask about discounted rates for your entire office. We help real estate teams save money while maximizing their marketing reach.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -131,4 +135,4 @@ const RealEstate = () => {
   );
 };
 
-export default RealEstate;
+    <div className="features-section features-section-tight">
