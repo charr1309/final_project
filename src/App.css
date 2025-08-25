@@ -1079,8 +1079,9 @@ body {
 
 .social-links {
   display: flex;
-  flex-direction: column;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+  justify-items: center;
 }
 
 .social-links span {
