@@ -1,8 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function BusinessCards() {
   return (
     <div className="page">
+      <Link to="/" className="back-button">
+        ← Back to Home
+      </Link>
+      
       <div className="hero-section">
         <div className="container">
           <h1 className="hero-title">Professional Business Cards</h1>
