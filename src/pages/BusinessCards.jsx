@@ -96,6 +96,10 @@ function BusinessCards() {
                 <h4>Competitive Pricing</h4>
                 <p>Professional quality at prices that work for businesses of all sizes.</p>
               </div>
+              <div className="info-item centered-feature">
+                <h4>Bulk Pricing</h4>
+                <p>Special discounts available for large quantity orders and repeat customers.</p>
+              </div>
             </div>
           </div>
 

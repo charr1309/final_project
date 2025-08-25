@@ -27,6 +27,10 @@ const MailingServices = () => {
 
   return (
     <section className="service-page">
+      <Link to="/" className="back-button">
+        ← Back to Home
+      </Link>
+      
       <div className="container">
         <div className="service-hero">
           <div className="service-content animate-fadeInLeft">
@@ -125,6 +129,11 @@ const MailingServices = () => {
               <div className="feature-icon">⚡</div>
               <h3>Full Service</h3>
               <p>From design to delivery - we handle every step of your mailing campaign</p>
+            </div>
+            <div className="feature-card centered-feature">
+              <div className="feature-icon">📊</div>
+              <h3>Detailed Reporting</h3>
+              <p>Comprehensive delivery reports and campaign analytics</p>
             </div>
           </div>
         </div>

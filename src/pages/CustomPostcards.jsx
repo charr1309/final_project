@@ -19,6 +19,10 @@ const CustomPostcards = () => {
 
   return (
     <section className="service-page">
+      <Link to="/" className="back-button">
+        ← Back to Home
+      </Link>
+      
       <div className="container">
         <div className="service-hero">
           <div className="service-content animate-fadeInLeft">
@@ -82,13 +86,18 @@ const CustomPostcards = () => {
               <h3>Business Focused</h3>
               <p>Designs that enhance your professional image and drive results</p>
             </div>
+            <div className="feature-card centered-feature">
+              <div className="feature-icon">🎯</div>
+              <h3>Targeted Marketing</h3>
+              <p>Designs optimized for your specific audience and marketing goals</p>
+            </div>
           </div>
         </div>
 
         <div className="samples-section">
           <h2>A few samples of our work</h2>
           <p>Click image to enlarge</p>
-          <div className="samples-gallery">
+          <div className="samples-gallery-grid">
             {samples.map((image, index) => (
               <div key={index} className="sample-card">
                 <img src={image} alt={`Custom Design Sample ${index + 1}`} />

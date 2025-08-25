@@ -36,6 +36,10 @@ const Websites = () => {
 
   return (
     <section className="service-page">
+      <Link to="/" className="back-button">
+        ← Back to Home
+      </Link>
+      
       <div className="container">
         <div className="service-hero">
           <div className="service-content animate-fadeInLeft">
@@ -101,7 +105,7 @@ const Websites = () => {
         <div className="portfolio-section">
           <h2>A few samples of our work</h2>
           <p>Click image to visit the sites</p>
-          <div className="portfolio-grid">
+          <div className="website-portfolio-grid">
             {portfolioSamples.map((sample, index) => (
               <div key={index} className="portfolio-item" style={{animationDelay: `${index * 0.2}s`}}>
                 <div className="portfolio-image">
@@ -139,6 +143,11 @@ const Websites = () => {
               <div className="feature-icon">🔍</div>
               <h3>SEO Optimized</h3>
               <p>Built with search engine optimization to help customers find you</p>
+            </div>
+            <div className="feature-card centered-feature">
+              <div className="feature-icon">🛡️</div>
+              <h3>Secure & Reliable</h3>
+              <p>SSL certificates and secure hosting for peace of mind</p>
             </div>
           </div>
         </div>

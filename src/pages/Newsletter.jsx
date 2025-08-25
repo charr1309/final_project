@@ -38,6 +38,10 @@ const Newsletter = () => {
 
   return (
     <section className="service-page">
+      <Link to="/" className="back-button">
+        ← Back to Home
+      </Link>
+      
       <div className="container">
         <div className="service-hero">
           <div className="service-content animate-fadeInLeft">
@@ -109,13 +113,18 @@ const Newsletter = () => {
               <h3>Complete Service</h3>
               <p>From design to printing to mailing - we handle it all</p>
             </div>
+            <div className="feature-card centered-feature">
+              <div className="feature-icon">📈</div>
+              <h3>Marketing Results</h3>
+              <p>Proven designs that drive engagement and response rates</p>
+            </div>
           </div>
         </div>
 
         <div className="portfolio-section">
           <h2>Sample Work</h2>
           <p>Examples of our newsletter and print design work</p>
-          <div className="portfolio-grid">
+          <div className="newsletter-portfolio-grid">
             {samples.map((image, index) => (
               <div key={index} className="portfolio-item">
                 <img src={image} alt={`Print Sample ${index + 1}`} />

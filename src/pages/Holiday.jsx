@@ -1,8 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Holiday() {
   return (
     <div className="page-container">
+      <Link to="/" className="back-button">
+        ← Back to Home
+      </Link>
+      
       <div className="hero-section">
         <div className="hero-content">
           <h1>Holiday & Seasonal Postcards</h1>
